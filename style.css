@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    background-color: #414352;
+    text-align: center;
+    word-spacing: 4vw;
+    padding-top: 4vh;
+    width: 100vw;
+    height: 9vh;
+    font-size: 4vh;
+}
+#difl {
+    display: flex;
+    justify-content: space-evenly;
+}
+.im{
+    margin: 3vh 0vh;
+    height:25vw;
+    width: 25vw;
+    border: 0.2vh solid black;
+    border-radius: 50%;
+}
+#score-box{
+    border-radius: 4vh;
+    background-color: #C7C8DA;
+    color: #6E5099;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vh;
+    height: 20vh;
+    width: 70vw;
+    margin: auto;
+}
+#score-n{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+}
+#score{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+    padding-right: 4vw;
+}
+button{
+    border: 0.1vh solid blue;
+    background-color: #6EADB9;
+    border-radius: 2vh;
+    height: 5vh;
+    width: 20vw;
+    font-size: 2vh;
+    color: white;
+    margin-left: 40vw;
+    margin-bottom: 4vh;
+}
+#winner{
+    display: flex;
+    justify-content: center;
+    margin: 2vh auto;
+}
